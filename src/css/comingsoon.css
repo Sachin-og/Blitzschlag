@@ -19,9 +19,16 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .coming-soon-text span{
-  font-size: 2rem;
+  font-size: 2rem; color: transparent; /* Makes the text color transparent */
+  background-size: 100%; /* Ensures the gradient covers the text */
+  background-repeat: no-repeat; /* Prevents repeating the gradient */
 }
-
+.coming-soon-text{
+  background-image: linear-gradient(to right, #3b82f6, #a855f7, #f472b6); /* Gradient colors */
+  background-clip: text; /* Clips the background to the text */
+  -webkit-background-clip: text; /* Adds support for WebKit browsers */
+  
+}
 .timer {
   font-size: 2rem;
   font-weight: 300;
@@ -81,11 +88,29 @@ body{
     height: 100%; /* Center the content vertically */
 }
 
-@media (max-device-width:759px) or (oreintation:portrait){
+/* @media (max-device-width:759px) or (oreintation:portrait){
   .main-content{
     scale: 0.75;
   }
   .blitzschlag-text{
     font-size: 3rem;
+  }
+} */
+
+@media (max-width: 759px), (orientation: portrait) {
+  .main-content {
+    transform: scale(0.85); /* Slight scale for small screens */
+    padding: 1rem; /* Ensure adequate spacing */
+  }
+  .blitzschlag-text {
+    font-size: 2.5em; /* Scales better on small screens */
+    line-height: 1.2; /* Improves readability */
+  }
+  .coming-soon-text{
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .timer-container{
+    scale: 0.75;
   }
 }

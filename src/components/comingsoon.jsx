@@ -4,8 +4,8 @@ import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 import '../css/comingsoon.css';
 import {BackgroundLines} from "./ui/background-lines";
-import {ShootingStars} from "./ui/shooting-stars";
-import {StarsBackground} from "./ui/stars-background";
+// import {ShootingStars} from "./ui/shooting-stars";
+// import {StarsBackground} from "./ui/stars-background";
 const Coming = () => {
   const text = "Coming\u00A0Soon";
   const text2 = "Blitzschlag'25";
@@ -69,8 +69,8 @@ const Coming = () => {
           </div>
         </div>
       </BackgroundLines>
-      <ShootingStars/>
-      <StarsBackground/>
+      {/* <ShootingStars/>
+      <StarsBackground/> */}
     </>
   );
 };
