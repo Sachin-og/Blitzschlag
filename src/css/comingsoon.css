@@ -1,0 +1,91 @@
+/* Import Playfair Display and Raleway Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;500&display=swap');
+@font-face {font-family: SF Pro Regular; font-weight: 600; src: url(SF-PRO.TTF)}
+body{
+  background-color: black;
+  user-select: none;
+}
+/* ComingSoon.css */
+.coming-soon-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+.coming-soon-text span{
+  font-size: 2rem;
+}
+
+.timer {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.flip-clock {
+  --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+  --fcc-spacing: 8px; /* space between unit times and separators */
+  --fcc-digit-block-width: 30px; /* width of digit card */
+  --fcc-digit-block-height: 60px; /* height of digit card, highly recommend in even number */
+  --fcc-digit-block-radius: 5px; /* border radius of digit card */
+  --fcc-digit-block-spacing: 5px; /* space between blocks in each unit of time */
+  --fcc-digit-font-size: 2rem; /* font size of digit */
+  --fcc-digit-color: #000; /* color of digit */
+  --fcc-label-font-size: 1rem; /* font size of label */
+  --fcc-label-color: #fff; /* color of label */
+  --fcc-background: #fff; /* background of digit card */
+  --fcc-divider-color: #000; /* color of divider */
+  --fcc-divider-height: 1px; /* height of divider */
+  --fcc-separator-size: 6px; /* size of colon */
+  --fcc-separator-color: #fff; /* color of colon */
+}
+.coming-soon-container {
+  position: relative;
+  margin-bottom: 3vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  overflow: hidden;
+}
+.text-background{
+  margin-bottom: 3vh;
+  color: white;
+}
+
+
+
+/* Blitzschlag text styling */
+.blitzschlag-text {
+  /* font-family: SF Pro Regular; */
+  font-weight: 700;
+  font-size: 5rem;
+  color: white;
+  cursor: pointer;
+
+}
+
+.main-content {
+    scale: 1.25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 20; /* Above the grid */
+    height: 100%; /* Center the content vertically */
+}
+
+@media (max-device-width:759px) or (oreintation:portrait){
+  .main-content{
+    scale: 0.75;
+  }
+  .blitzschlag-text{
+    font-size: 3rem;
+  }
+}
