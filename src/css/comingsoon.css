@@ -19,16 +19,15 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .coming-soon-text span{
-  font-size: 2rem; color: transparent; /* Makes the text color transparent */
+  font-size: 2rem; color: #ffffff; /* Makes the text color transparent */
   background-size: 100%; /* Ensures the gradient covers the text */
   background-repeat: no-repeat; /* Prevents repeating the gradient */
 }
-.coming-soon-text{
+/* .coming-soon-text{
   background-image: linear-gradient(to right, #3b82f6, #a855f7, #f472b6); /* Gradient colors */
   background-clip: text; /* Clips the background to the text */
-  -webkit-background-clip: text; /* Adds support for WebKit browsers */
-  
-}
+  -webkit-background-clip: text; /* Adds support for WebKit browsers */ 
+} */
 .timer {
   font-size: 2rem;
   font-weight: 300;
