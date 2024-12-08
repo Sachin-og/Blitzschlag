@@ -24,9 +24,9 @@ body{
   background-repeat: no-repeat; /* Prevents repeating the gradient */
 }
 /* .coming-soon-text{
-  background-image: linear-gradient(to right, #3b82f6, #a855f7, #f472b6); /* Gradient colors */
-  background-clip: text; /* Clips the background to the text */
-  -webkit-background-clip: text; /* Adds support for WebKit browsers */ 
+  background-image: linear-gradient(to right, #3b82f6, #a855f7, #f472b6);
+  background-clip: text; 
+  -webkit-background-clip: text;
 } */
 .timer {
   font-size: 2rem;
