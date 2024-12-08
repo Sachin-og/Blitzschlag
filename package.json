@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sachin-og.github.io/blitzchlag/",
+  "homepage": "https://Sachin-og.github.io/Blitzchlag/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
