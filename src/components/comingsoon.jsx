@@ -61,7 +61,7 @@ const Coming = () => {
           {/* Countdown Timer */}
           <div className="timer-container">
             <FlipClockCountdown 
-              to={new Date("2025-02-01T23:59:59")}
+              to={new Date("2025-02-06T23:59:59")}
               className='flip-clock'
               labels={["Days", "Hours", "Minutes", "Seconds"]}
               duration={0.5}
